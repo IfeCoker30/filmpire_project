@@ -5,13 +5,13 @@ import SearchIcon from './search.svg'; // Importing a search icon
 import MovieCard from './MovieCard.jsx'; // Importing the MovieCard component
 
 const API_URL = 'https://omdbapi.com?apikey=6051f83';
-const movie1 = {
-    "Title": "Discount Spiderman 2",
-    "Year": "2018",
-    "imdbID": "tt9146610",
-    "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BY2U4NjY2YTQtZDFiYS00YTk2LTk5NDItMWVlNmIwZjYyZmE5XkEyXkFqcGc@._V1_SX300.jpg"
-}
+// const movie1 = {
+//     "Title": "Discount Spiderman 2",
+//     "Year": "2018",
+//     "imdbID": "tt9146610",
+//     "Type": "movie",
+//     "Poster": "https://m.media-amazon.com/images/M/MV5BY2U4NjY2YTQtZDFiYS00YTk2LTk5NDItMWVlNmIwZjYyZmE5XkEyXkFqcGc@._V1_SX300.jpg"
+// }
 
 function App() {
   const [movies, setMovies] = useState([]); // State to hold movie data
